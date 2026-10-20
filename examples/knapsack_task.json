@@ -1,0 +1,21 @@
+{
+  "title": "动态规划：完全背包",
+  "requirement": "在 knapsack.py 中实现完全背包（每种物品可无限次选取）的两个函数，签名和文档字符串保持不变。unbounded_knapsack(weights, values, capacity) 返回总重量不超过 capacity 时的最大总价值；unbounded_knapsack_solution(weights, values, capacity) 返回 (最大总价值, counts)，counts[i] 是第 i 种物品的非负整数选取次数。使用一维动态规划，时间复杂度 O(n·capacity)，空间复杂度 O(capacity)（方案重建可额外 O(capacity)）。非法输入抛出 ValueError：weights 与 values 长度不同、任一重量不是正整数、任一价值为负、capacity 为负。只修改 knapsack.py，不得修改 tests/ 下的文件，不引入第三方依赖。",
+  "acceptance": [
+    {"id": "AC1", "description": "经典用例与随机暴力对照结果一致，物品可重复选取"},
+    {"id": "AC2", "description": "空物品、容量为 0、所有物品都放不下时返回 0；counts 为对应长度的全 0 列表或合法方案"},
+    {"id": "AC3", "description": "unbounded_knapsack_solution 返回的 counts 总重量不超过容量，总价值等于最大价值"},
+    {"id": "AC4", "description": "四类非法输入两个函数都抛出 ValueError"},
+    {"id": "AC5", "description": "采用一维 DP，O(n·capacity) 时间、O(capacity) 空间，容量 100000 的用例在超时内完成；tests/ 未被修改"}
+  ],
+  "tests": [
+    {
+      "name": "knapsack acceptance tests",
+      "argv": ["{python}", "-m", "unittest", "discover", "-s", "tests", "-v"],
+      "timeout_seconds": 120
+    }
+  ],
+  "max_rounds": 3,
+  "max_questions": 5,
+  "agent_timeout_seconds": 900
+}

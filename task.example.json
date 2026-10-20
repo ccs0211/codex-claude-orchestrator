@@ -1,0 +1,18 @@
+{
+  "title": "填写这次任务的名称",
+  "requirement": "说明当前问题、目标行为、修改范围，以及需要保持的行为。",
+  "acceptance": [
+    {"id": "AC1", "description": "填写一条可检查的功能验收标准。"},
+    {"id": "AC2", "description": "填写边界条件或回归验收标准。"}
+  ],
+  "tests": [
+    {
+      "name": "项目验收测试（请按项目修改）",
+      "argv": ["{python}", "-m", "unittest", "discover", "-s", "tests", "-v"],
+      "timeout_seconds": 300
+    }
+  ],
+  "max_rounds": 3,
+  "max_questions": 5,
+  "agent_timeout_seconds": 1800
+}

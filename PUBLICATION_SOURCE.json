@@ -1,0 +1,29 @@
+{
+  "source_folder_name": "codex-claude-orchestrator",
+  "copied_files_sha256": {
+    "orchestrate.py": "1b8767b9b67caaa1681773a9e0e3eb659fdd5633912213db5e69323607d1b59f",
+    "start_claude.ps1": "a9fa347f31417a4f869ac34718b0116e86a6054d12df8d1e688baabb955b8c43",
+    "task.example.json": "ae2e5daecb1e43b22557732f35c05cfa52a63f0c6b6dd9cc8c0ec0a94008d6f5",
+    "tools.example.json": "55915064869ff25088df96969e5787076032f5ab0880c33d1d77eb6fc80fcae1",
+    "tests/test_orchestrate.py": "0ed18e88173a93972d3a1b104d088395403356f6a573479758d6fff9a37a8e4a",
+    "examples/knapsack_task.json": "82856f91bd8d071bcca07dfac47f644ac58785fed327795b4a3f5580ff317bfc",
+    "examples/knapsack_demo/.gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "examples/knapsack_demo/knapsack.py": "b14f1a017c7a1b6bc558b598cae96e0b3383b854d6578264bdc1e83fff9f2a84",
+    "examples/knapsack_demo/tests/test_knapsack.py": "3f59e55d98dffac92c911034af82b5c25d6a5b6d46398ecea083c222aa112c94",
+    "examples/mpc_demo/.gitignore": "1468b60289e16e2899e7f0485d6e664243edd176dbd31a58bee3690c9e6a718f",
+    "examples/mpc_demo/mpc.py": "586328446dccb61b31739f8d9d9820988dfaf5820f48a7680f7dd0435c441660",
+    "examples/mpc_demo/run_demo.py": "8d5fc36e243f410639dd7bdb0009125029d1228d53bb0b7518714a5fe40489e6",
+    "examples/mpc_demo/test_mpc.py": "69c5157095b5d90ab268cac455b10eeacc7834750fb299b441256a6e6391702d",
+    "examples/mpc_demo/review_with_claude.py": "4b48a47a134d4992efdd84253eadd2d2acfa308092883671a3f9f5eb02dffecb",
+    "examples/mpc_demo/requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494"
+  },
+  "excluded_categories": [
+    "CLI authentication and local settings",
+    "runs and reviews",
+    "message bus logs and cursors",
+    "generated plots and simulation data",
+    "Python caches",
+    "legacy machine-specific documentation and flow image"
+  ],
+  "core_behavior": "orchestrate.py and tests copied without changes; documentation rewritten for portable publication"
+}
