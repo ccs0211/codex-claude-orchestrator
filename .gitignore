@@ -1,0 +1,47 @@
+# Local credentials, environment, and CLI settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local.json
+*.local.txt
+tools.local.json
+task.json
+credentials.json
+.credentials.json
+auth.json
+token.json
+*.key
+*.pem
+
+# Runtime conversations, private code diffs, and generated results
+runs/
+.bus/
+reviews/
+artifacts/
+review_status.json
+*.log
+*.jsonl
+*.lock
+*.patch
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
